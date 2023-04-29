@@ -26,7 +26,7 @@ public class JdbcTestConnection extends HttpServlet {
 	private static final long serialVersionUID = 1L;
 	
 	//Get the JDBC connection for Connection pooling using resourse injection
-	@Resource(name="jdbc/studentTracker")
+	@Resource(name="jdbc/employeeTracker")
 	private DataSource dataSource;
 
 	/**
